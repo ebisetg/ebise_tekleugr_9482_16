@@ -50,15 +50,15 @@ flutter run -d chrome
 
 ## Screenshots
 
-![Volunteer Opportunities](screenshots/volunteer_list.png)
+![screenshots](screenshots/photo_2026-05-18_20-10-02.jpg)
 
-![Create Opportunity](screenshots/create_opportunity.png)
+![screenshots](screenshots/photo_2026-05-18_20-10-40.jpg)
 
-![Opportunity Details](screenshots/opportunity_details.png)
+![screenshots](screenshots/photo_2026-05-18_20-10-53.jpg)
 
-![Delete Confirmation](screenshots/delete_confirmation.png)
+![screenshots](screenshots/photo_2026-05-18_20-10-59.jpg)
 
-![Edit Opportunity](screenshots/edit_opportunity.png)
+![screenshots](screenshots/photo_2026-05-18_20-11-03.jpg)
 
 ## Key files
 
