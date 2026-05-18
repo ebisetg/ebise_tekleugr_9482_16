@@ -20,48 +20,45 @@ flutter pub get
 
 ```bash
 flutter run -d chrome
-
-App Flow
- 1. Load Volunteers
-App starts → fetches data from API
-Event: LoadVolunteersEvent
-State: VolunteerLoaded
- 2. Create Volunteer
-User fills form
-Event: AddVolunteerEvent
-API POST request
-List updates automatically
- 3. View Details
-Tap card → navigate to detail screen
-Event: LoadVolunteerDetailEvent
-Shows full information
- 4. Update Volunteer
-Edit form submitted
-Event: UpdateVolunteerEvent
-API PUT request updates data
-UI refreshes
-5. Delete Volunteer
-Confirmation dialog
-Event: DeleteVolunteerEvent
-API DELETE request
-Item removed from list
-6. Apply for Volunteer
-Increases number of volunteers
-Prevents applying if status = Filled
-Updates backend via PUT request
 ```
+
+## App flow
+
+1. Load volunteers
+   - App starts and fetches data from the API
+   - Event: `LoadVolunteersEvent`
+   - State: `VolunteerLoaded`
+2. Create volunteer
+   - User fills the form
+   - Event: `AddVolunteerEvent`
+   - API POST request
+   - The list updates automatically
+3. View details
+   - Tap a card to open the detail screen
+   - Event: `LoadVolunteerDetailEvent`
+4. Update volunteer
+   - Edit form submitted
+   - Event: `UpdateVolunteerEvent`
+   - API PUT request updates the data
+5. Delete volunteer
+   - Confirmation dialog appears
+   - Event: `DeleteVolunteerEvent`
+   - API DELETE request removes the item
+6. Apply for volunteer
+   - Increases the number of volunteers
+   - Prevents apply action if status is `filled`
 
 ## Screenshots
 
-![Volunteer Opportunities](ebise_tekleugr_9482_16\screenshots\photo_2026-05-18_20-10-02.jpg)
+![Volunteer Opportunities](screenshots/volunteer_list.png)
 
-![Create Opportunity](ebise_tekleugr_9482_16\screenshots\photo_2026-05-18_20-10-40.jpg)
+![Create Opportunity](screenshots/create_opportunity.png)
 
-![Opportunity Details](ebise_tekleugr_9482_16\screenshots\photo_2026-05-18_20-10-53.jpg)
+![Opportunity Details](screenshots/opportunity_details.png)
 
-![Delete Confirmation](ebise_tekleugr_9482_16\screenshots\photo_2026-05-18_20-10-59.jpg)
+![Delete Confirmation](screenshots/delete_confirmation.png)
 
-![Edit Opportunity](ebise_tekleugr_9482_16\screenshots\photo_2026-05-18_20-11-03.jpg)
+![Edit Opportunity](screenshots/edit_opportunity.png)
 
 ## Key files
 
